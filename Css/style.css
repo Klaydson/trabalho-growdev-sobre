@@ -1,0 +1,117 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.toda-tela{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ height: 100vh;
+ margin: 0 auto; 
+ width: 90vw;
+
+}
+
+.parte-esquerda{
+background-color: rgb(73, 72, 77);
+width: 30%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.parte-direita{
+
+background-color: rgb(15, 82, 82);
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 70%;
+padding-left: 35px;
+}
+
+
+.minha-imagem {
+
+border-radius: 50%;
+border: solid 5px; color: rgb(253, 253, 253);
+height: 150px;
+width: 150px;
+margin-bottom: 15px;
+
+}
+
+.links{
+display: flex;
+flex-direction: column;
+
+}
+
+.links a{
+    text-decoration: none;
+font-size: 25px;
+font-weight: 2px;
+margin-bottom: 6px;
+color: rgb(32, 117, 89);
+background-color: rgb(100, 101, 102);
+border-radius: 10px;
+padding: 7px;
+
+}
+
+.links a:hover { 
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255, 255, 255);
+}
+
+.listas li{
+    padding: 25px;
+    font-size: 25px;
+    margin-left: 40px;
+
+}
+
+.parte-direita p{
+
+margin-bottom: 20px;
+}
+
+.nome{
+
+    font-size: 40px;
+}
+
+.sobre-nome{
+
+    color: rgb(126, 121, 121);
+}
+
+.ul-objetivo li{
+
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.redes-sociais{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.redes-sociais:hover {
+
+    background-color: rgb(107, 107, 109);
+    border-radius: 5px;
+
+}
